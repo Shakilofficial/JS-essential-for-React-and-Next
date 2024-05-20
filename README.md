@@ -1,4 +1,4 @@
-# JS-Essential-for-React-and-Next
+# JavaScript Foundations: Your Gateway to React and Next.js Development
 
 Before diving into React and Next.js, having a solid foundation in JavaScript (JS) is crucial. Here are some essential JS topics you should be familiar with:
 
