@@ -7,31 +7,42 @@ Before diving into React and Next.js, having a solid foundation in JavaScript (J
 Variables, Data Types, and Operators: Understanding how to store and manipulate data using variables, different data types (strings, numbers, booleans, etc.), and operators (arithmetic, comparison, logical) is essential for any programming language.
 
 ### Functions:
- Functions are reusable blocks of code that perform specific tasks. Grasping how to define, call, and pass arguments to functions is fundamental in JS.
 
-### Control Flow: 
+Functions are reusable blocks of code that perform specific tasks. Grasping how to define, call, and pass arguments to functions is fundamental in JS.
+
+### Control Flow:
+
 Control flow statements like if/else, switch, and loops (for, while) allow your code to make decisions and execute based on specific conditions.
 
 ## Advanced Concepts:
+
 ### Objects and Arrays:
+
 Objects are collections of key-value pairs used to store complex data. Arrays are ordered lists of values. Understanding how to create, access, and manipulate objects and arrays is vital in React for managing component state and data.
-### Destructuring and Spread Syntax: 
+
+### Destructuring and Spread Syntax:
+
 These are shorthand ways to extract data from objects and arrays and to copy objects/arrays while making modifications.
 
-### Arrow Functions: 
+### Arrow Functions:
+
 A concise way to define functions introduced in ES6 (ECMAScript 2015).
-### Async/Await: 
+
+### Async/Await:
+
 These keywords help handle asynchronous operations (like fetching data from an API) in a cleaner and more readable way compared to traditional promises.
 
 ## Additional Helpful Topics:
 
-### DOM Manipulation: 
+### DOM Manipulation:
+
 While React handles most DOM manipulation, having a basic understanding of how to interact with the DOM using vanilla JS can be beneficial.
-### Event Handling: 
+
+### Event Handling:
+
 Learn how to capture and respond to user interactions (clicks, key presses, etc.) on your web pages.
 
-
-### Understanding `var`, `let`, and `const` in JavaScript
+# Understanding `var`, `let`, and `const` in JavaScript
 
 ### `var`
 
@@ -40,6 +51,7 @@ Learn how to capture and respond to user interactions (clicks, key presses, etc.
 - **Re-declaration:** You can declare the same `var` variable multiple times without error.
 
 Example:
+
 ```javascript
 function example() {
   console.log(x); // undefined, because `x` is hoisted
@@ -56,6 +68,7 @@ example();
 - **Re-declaration:** You cannot declare the same `let` variable twice in the same block.
 
 Example:
+
 ```javascript
 {
   let y = 20;
@@ -71,6 +84,7 @@ Example:
 - **Immutability:** You cannot change the value of a `const` variable after it is set. But if it is an object or array, you can change its contents.
 
 Example:
+
 ```javascript
 {
   const z = 30;
@@ -86,14 +100,17 @@ Example:
 ### Key Differences
 
 1. **Scope:**
+
    - `var`: Function-wide or global
    - `let` and `const`: Block-wide
 
 2. **Hoisting:**
+
    - `var`: Hoisted and initialized as `undefined`
    - `let` and `const`: Hoisted but not initialized, causing an error if used before declaration
 
 3. **Re-declaration:**
+
    - `var`: Can be re-declared
    - `let` and `const`: Cannot be re-declared in the same scope
 
